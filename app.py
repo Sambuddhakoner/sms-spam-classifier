@@ -6,7 +6,7 @@ from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 from xgboost import XGBClassifier
 
-stopwords = stopwords.words('english')
+stopword = stopwords.words('english')
 punctuations = string.punctuation
 ps = PorterStemmer()
 
@@ -22,7 +22,7 @@ def transform_text(text):
     y.clear()
 
     for i in text:
-        if i not in stopwords and i not in punctuations:
+        if i not in stopword and i not in punctuations:
             y.append(i)
     text = y.copy()
     y.clear()
