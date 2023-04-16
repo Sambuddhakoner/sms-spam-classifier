@@ -1,4 +1,4 @@
 streamlit
-nitk
+nltk
 sklearn
 xgboost
