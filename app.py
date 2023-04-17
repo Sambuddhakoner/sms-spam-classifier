@@ -1,6 +1,7 @@
 import pickle
 import string
-
+import nltk
+nltk.download('punkt')
 import streamlit as st
 from nltk.data import load
 from nltk.tokenize.destructive import NLTKWordTokenizer
