@@ -193,10 +193,10 @@ ps = PorterStemmer()
 def transform_text(text):
 #     text = text.lower()
 #     text = nltk.word_tokenize(text)    
-text = ['Hey',
-             'User',
+text = ['hey',
+             'user',
              ',',
-             'What',
+             'what',
              "'s",
              'better',
              'than',
@@ -206,24 +206,24 @@ text = ['Hey',
              '@',
              'home',
              '?',
-             'The',
+             'the',
              'extra',
-             'Rs.150',
+             'rs.150',
              'cashback',
              'that',
              'you',
              'get',
              '!',
-             'Code',
+             'code',
              ':',
-             'ASKDOC150',
+             'askdoc150',
              '.',
-             'Book',
-             'NOW',
+             'book',
+             'now',
              '!',
              'https',
              ':',
-             '//niui.in/Ppvma8']
+             '//niui.in/ppvma8']
     y = []
     for i in text:
         if i.isalnum():
